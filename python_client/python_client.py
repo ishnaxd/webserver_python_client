@@ -5,7 +5,7 @@ import httplib2
 http = httplib2.Http()
 
 if 0:
-    url ="http://172.20.10.2/toggle"
+    url ="http://***.**.**.*/toggle"
     response,content  = http.request(url,"GET")
     print (response)
 
